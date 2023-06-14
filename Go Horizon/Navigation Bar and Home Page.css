@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Navigation Bar*/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.612);
+    display: flex;
+    height: 4.0rem;
+    width: 100%;
+    position: fixed;
+
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.nav_items ul{
+    display: flex;
+
+}
+.nav_items ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.nav_items ul li a{
+    display: block;
+    height: 14px;
+    padding: 25px 38px;
+    color: white;
+    text-decoration: none;
+}
+.nav_items ul li a:hover{
+    text-decoration: underline;
+    background-color:black;
+    transition: 0.4s;
+}
+
+/*Home*/
+#home::before{
+    content: "";
+    position: absolute;
+    background: url("backgroundmain2.jpg") no-repeat center center/cover;
+    height: 73%;
+    width: 100%;
+    z-index: -1;
+    width: 100vw;
+}
+
+.block{
+    display: inline-block;
+    margin: 130px 200px;
+    color: white;
+}
+.first_heading{
+    font-size: 33px;
+    font-weight: 530;
+    
+}
+.mid_heading{
+    font-size: 55px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Learn More Button*/
+.btn{
+    height: 45px;
+    width: 139px;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 530;
+    font-size: 16px;
+
+}
+.btn:hover{
+    background-color: rgba(4, 14, 108, 0.782);
+    text-decoration: underline;
+    transition: 0.7s;
+}

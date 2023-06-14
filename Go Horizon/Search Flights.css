@@ -1,0 +1,66 @@
+/*Search Flights box*/
+.flightsearch{
+    /*border: 2px solid red;*/
+    font-size: 22px;
+    display: block;
+    background-color:rgb(193, 193, 193);
+    width: 1080px;
+    height: 324px;
+    margin:-22px 250px;
+    padding-left: 25px;
+    box-shadow: 15px 15px 23px -16px black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+   
+    
+}
+/*Search Flights Heading*/
+.head{
+    /*border: 2px solid black;*/
+    text-align: center;
+    padding-top: 18px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+
+input[type="text"]{
+    font-size: 22px;
+    padding: 12px 100px;
+}
+input[type="date"]{
+    font-size: 22px;
+   
+}
+input[type="number"]{
+    font-size: 22px;
+   
+}
+select[name="facility"]{
+    font-size: 18px;
+}
+
+/*Search flights Button*/
+.searchbutton{
+    position: relative;
+    font-size: 16px;
+    width: 131px;
+    height: 60px;
+    float: right;
+    margin: -30px 22px;
+    cursor: pointer;
+    border: none;
+    background-color:rgb(255, 0, 0);
+    color: white;
+    font-weight: 600;
+    
+}
+.searchbutton:hover{
+    background-color: rgba(10, 2, 43, 0.858);
+    transition: 0.5s;
+    text-decoration: underline;
+    box-shadow: 7px 7px 20px -5px black;
+    
+}
